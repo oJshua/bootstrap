@@ -74,7 +74,7 @@ angular.module('ui.bootstrap.modal', [])
       //trigger CSS transitions
       $timeout(function () {
         scope.animate = true;
-      });
+      }, 0);
     }
   }])
 
